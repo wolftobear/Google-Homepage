@@ -1,0 +1,132 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font:arial,sans-serif;
+}
+#top{
+    width:100%;
+    height: 5px;
+    font-family:arial,sans-serif;
+    margin-top: 0;
+    margin-bottom:1in;
+    padding-top: 0;
+    top: 0;
+    position: relative;
+}
+#tab1, #tab2{
+    float:left;
+    margin-left: 4px;
+    font: lighter;
+    color: black;
+    margin-left: 15px;
+}
+#tab3, #tab4{
+    float:right;
+    font: lighter;
+    color: black;
+    margin-right: 15px;
+}
+.tabs{
+    color:black;
+    transition: .5s;
+}
+.tabs:hover{
+    text-decoration:underline;
+    color: gray;
+}
+.tabs.a{
+    color: black;
+}
+#img{
+    border-radius:50%;
+    width:fit-content;
+    height: fit-content;
+    font-size:  x-large;
+    color:rgb(255, 255, 255);
+    margin-top: .11in;
+    margin-left: 1%;
+    float: right;
+
+    background-color: rgb(255, 180, 41);
+}
+#google{
+
+    margin:0% 36.5% 0% 34.5%;
+}
+#search{
+    width: 4in;
+    height: 18px;
+    margin: 4% 35% 0%;
+    border: solid black;
+    border-width: 1px;
+    background-image: url('bar.png');
+    background-repeat: no-repeat;
+    text-indent: 4%;
+    transition: .5sFc;
+}
+#search:hover{
+    border: blue solid 1px;
+}
+#buttons{
+    width: 4in;
+    height: 18px;
+    margin: 1% 35% 0%;
+    font-family: arial,sans-serif;
+
+}
+button:hover{
+    cursor: pointer;
+}
+#button1{
+    margin: 0% 0% 0% 25%;
+}
+#button2{
+    margin: 0% 24% 0% 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom{
+    width:100%;
+    height: .5in;
+    font-family:arial,sans-serif;
+    bottom: 0px;
+    position: fixed;
+    display: block;
+    line-height: 0px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    margin-top: 1.56in;
+}
+#tab5,#tab6,#tab7{
+    float: left;
+    margin-left: 0%;
+    color: rgb(145, 140, 140);
+} 
+
+#tab8,#tab9,#tab10{
+    float: right;
+    margin-right: 0%;
+    color: rgb(145, 140, 140);
+}
+#apps{
+    width: 2%;
+    float: right;
+    margin-top: 7px;
+    
+}
+#apps:hover{
+    cursor:pointer;
+}
